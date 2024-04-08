@@ -1,0 +1,71 @@
+<p>add-product works!</p>
+<form [formGroup]="productForm" (ngSubmit)="onSubmit()">
+  <div class="inputContainer">
+    <div class="inputGroup bg-primary mb-2">
+      <h3 class="text-white">Submit Product Details</h3>
+    </div>
+    <div class="inputGroup">
+      <input
+        type="number"
+        formControlName="id"
+        placeholder="Enter Product id"
+      />
+    </div>
+    <div class="inputGroup">
+      <input
+        type="text"
+        formControlName="productName"
+        placeholder="Enter Product Name"
+      />
+      <input
+        type="number"
+        formControlName="productPrice"
+        placeholder="Enter Product Price"
+      />
+    </div>
+    <div class="inputGroup">
+      <input
+        type="text"
+        formControlName="productColor"
+        placeholder="Enter Product color"
+      />
+      <input
+        type="number"
+        formControlName="availableQuantity"
+        placeholder="Enter Quantity"
+      />
+    </div>
+    <div formGroupName="supplier">
+      <div class="inputGroup">
+        <input
+          type="text"
+          formControlName="supplierName"
+          placeholder="Enter Supplier Name"
+        />
+
+        <input
+          type="text"
+          formControlName="supplierEmail"
+          placeholder="Enter Supplier Email"
+        />
+      </div>
+
+      <div class="inputGroup">
+        <input
+          type="text"
+          formControlName="supplierAddress"
+          placeholder="Enter Supplier Address"
+        />
+
+        <input
+          type="number"
+          formControlName="pinCode"
+          placeholder="Enter Supplier pincode"
+        />
+      </div>
+    </div>
+    <div class="inputGroup">
+      <button type="submit" class="btn btn-success">SUBMIT</button>
+    </div>
+  </div>
+</form>

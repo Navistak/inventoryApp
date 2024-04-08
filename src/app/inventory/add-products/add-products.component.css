@@ -1,0 +1,38 @@
+form {
+  margin-top: 10px;
+  display: flex;
+  justify-content: center;
+}
+.inputContainer {
+  height: 300px;
+  width: 500px;
+  display: flex;
+  flex-direction: column;
+  border-style: groove;
+  border-color: royalblue;
+  border-width: 3px;
+  background-color: #ffffec;
+}
+.inputGroup {
+  display: flex;
+  justify-content: space-around;
+}
+input {
+  margin-top: 10px;
+  border-style: dashed;
+  border-width: 1px;
+  border-color: black;
+  color:black;
+  font-weight: bold;
+  width: 200px;
+  text-align: center;
+  background-color: royalblue;
+  font-family: "Times New Roman", Times, serif;
+}
+input::placeholder {
+  color: white;
+}
+button {
+  width: 350px;
+  margin-top: 10px;
+}

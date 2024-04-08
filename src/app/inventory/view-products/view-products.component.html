@@ -1,0 +1,36 @@
+<p> view-products works!</p>
+    
+<table class="text-white table table-dark">
+    <thead>
+    <tr>
+        <th>Id</th>
+        <th>ProductName</th>
+        <th>ProductPrice</th>
+        <th>ProductColor</th>
+        <th>AvailaibleQuatity</th>
+        <th>SupplierName</th>
+        <th>SupplierEmail</th>
+        <th>SupplierAddress</th>
+        <th>Pincode</th>
+        <th>Action</th>
+    </tr>
+</thead>
+<tbody>
+    <tr *ngFor="let x of products">
+        <td>{{x.id}}</td>
+        <td>{{x.productName}}</td>
+        <td>{{x.productPrice}}</td>
+        <td>{{x.productColor}}</td>
+        <td>{{x.availableQuantity}}</td>
+        <!-- <td>{{x.supplier.supplierId}}</td> -->
+        <td>{{x.supplier.supplierName}}</td>
+        <td>{{x.supplier.supplierEmail}}</td>
+        <td>{{x.supplier.supplierAddress}}</td>
+        <td>{{x.supplier.pinCode}}</td>
+        <td>
+        <button class="btn btn-primary" (click)="onUpdate(x)"><i class="fa fa-pencil-square" aria-hidden="true"></i></button>
+        <!-- <button class="btn btn-secondary" (click)="onDelete(x)"><i class="fa fa-trash" aria-hidden="true"></i></button> -->
+
+    </tr>
+</tbody>
+</table>

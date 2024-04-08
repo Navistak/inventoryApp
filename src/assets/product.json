@@ -1,0 +1,56 @@
+{
+  "products": [
+    {
+      "id": 1,
+      "productName": "lenovo laptop",
+      "productPrice": 70000,
+      "productColor": "gray",
+      "availableQuantity": 1000,
+      "supplier": {
+        "supplierName": "Navista",
+        "supplierEmail": "Navista123@gmail.com",
+        "supplierAddress": "pune",
+        "pinCode": 411052
+      }
+    },
+    {
+      "id": 2,
+      "productName": "Hp printer",
+      "productPrice": 15000,
+      "productColor": "black",
+      "availableQuantity": 10,
+      "supplier": {
+        "supplierName": "kiran",
+        "supplierEmail": "kiran@gmail.com",
+        "supplierAddress": "nagpur",
+        "pinCode": 421002
+      }
+    },
+    {
+      "id": 3,
+      "productName": "Dell laptop",
+      "productPrice": 50000,
+      "productColor": "black",
+      "availableQuantity": 200,
+      "supplier": {
+        "supplierName": "mansi",
+        "supplierEmail": "mansi1@gmail.com",
+        "supplierAddress": "solapur",
+        "pinCode": 413222
+      }
+    },
+    {
+      "id": 4,
+      "productName": "Hp laptop",
+      "productPrice": 90000,
+      "productColor": "black",
+      "availableQuantity": 80,
+      "supplier": {
+        "supplierName": "navista",
+        "supplierEmail": "navista78@gmail.com",
+        "supplierAddress": "solapur",
+        "pinCode": 413221
+      }
+    }
+  ]
+}

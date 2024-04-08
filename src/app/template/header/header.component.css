@@ -1,0 +1,10 @@
+.header{
+    background-color: royalblue;
+    display: flex;
+    justify-content: space-around;
+}
+.slogen{
+    margin-top: 10px;
+    color: white;
+    font-family: 'Times New Roman', Times, serif;
+}
